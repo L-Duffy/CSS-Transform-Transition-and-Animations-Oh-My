@@ -39,6 +39,15 @@ a {
   color: rebeccapurple;
   text-shadow: 1px 1px 2px darkgrey;
 }
+
 a:hover {
   color: ghostwhite;
+}
+
+.hamburger:hover > div:nth-child(1){
+  background-color: ghostwhite;
+  animation-name: top;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translateY(34px) rotate(45deg);
 }
